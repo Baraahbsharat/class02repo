@@ -1,0 +1,27 @@
+body {
+    background-color : darkviolet;
+  }
+  
+ 
+  
+  p {
+    color: black;
+    font-size: 40px;
+    float:right;
+    text-align: center;
+  }
+ 
+  img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    margin-bottom:25px;     
+  }
+  
+  h1 {
+    font-size: 120px;
+    text-align: center;
+  }
