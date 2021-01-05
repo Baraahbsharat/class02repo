@@ -7,7 +7,6 @@ body {
   p {
     color: black;
     font-size: 40px;
-    float:right;
     text-align: center;
   }
  
@@ -25,3 +24,30 @@ body {
     font-size: 120px;
     text-align: center;
   }
+  ul { 
+  list-style-type: square;
+  background: #3399ff;
+  padding: 20px;
+  text-align: center;
+  
+  }
+  ul li {
+    background: #cce5ff;
+    margin: 5px;
+  }
+  ol {
+    background: #ff9999;
+    padding: 20px;
+    counter-reset: 1;
+  }
+  ol li {
+    
+    background: #ffe5e5;
+    padding: 5px;
+    text-align: center;
+    counter-increment: 1;
+  }  
+  
+ 
+  
+  
