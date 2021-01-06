@@ -1,3 +1,4 @@
+ 
 'use strict'
 
 alert('Welcome to my page and let us see if you will know something about me');
@@ -95,7 +96,6 @@ else {
     //console.log('Invalid response');
     alert('Invalid response')
 }
-
 var gender = prompt("I have the ability to laugh, cry, anger, be happy, love or hate you within 5 minutes Am I a male؟");
 if(gender .toLocaleLowerCase() === 'yes' || gender .toLocaleLowerCase() === 'y'){
    //console.log('Wrong !!! I believe that you said that either because you are a female or female');
@@ -152,11 +152,4 @@ else {
    //console.log('Invalid response');
   alert('Invalid response')   
 }*/
-
-
-
-
-
-
-
 
