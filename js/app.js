@@ -99,8 +99,8 @@ function guessMyAge() {
 guessMyAge();
 
 function multiplechoiceq() {
-    var myFavCartoon = ['Sally', 'Remi', 'Jodi', 'Me and my sister', 'Konan'];
-    for (var i = 0; i < 6; i++) {
+    var myFavCartoon = ['sally', 'remi', 'jodi', 'me and my sister', 'konan'];
+    for (var i = 0; i < 7; i++) {
         var userAnsw = prompt('Can you guess my favorite cartoon?');
         var guess = userAnsw.toLowerCase();
 
@@ -112,8 +112,9 @@ function multiplechoiceq() {
                 break;
             }
         }
-        if (i !==6){
+        if (i === 6){
             alert('Sorry wrong answer, try again');
+            break;
         }
     }
 }
