@@ -39,6 +39,7 @@ body {
     background: #ff9999;
     padding: 20px;
     counter-reset: 1;
+    list-style-type: upper-alpha;
   }
   ol li {
     

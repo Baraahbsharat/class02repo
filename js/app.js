@@ -47,14 +47,17 @@ function guessMyAge() {
         } else if (number < 24) {
             alert('too low! Guess again');
             counter++;
+          
         }
     }
+    alert('My age is 24 years old');
     if (number === 24) {
         alert('That is correct! My Age is 24!');
         score++;
         counter = 5;
     }
 }
+
 
 function multiplechoiceq() {
     var myFavCartoon = ['sally', 'remi', 'jodi', 'me and my sister', 'konan'];
