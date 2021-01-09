@@ -1,13 +1,15 @@
 body {
-    background-color : darkviolet;
+    background-color : rosybrown;
   }
   
  
   
   p {
     color: black;
-    font-size: 40px;
+    font-size: 100px;
     text-align: center;
+    font-weight: bold;
+    
   }
  
   img {
@@ -21,34 +23,42 @@ body {
   }
   
   h1 {
-    font-size: 120px;
+    font-size: 100px;
     text-align: center;
+    font-weight: bold;
   }
   ul { 
   list-style-type: square;
-  background: #3399ff;
+  background:darkred ;
   padding: 20px;
   text-align: center;
+  margin-top: 20px;
   
   }
   ul li {
-    background: #cce5ff;
+    background:#ffe5e5;
     margin: 5px;
+    font-size: 20px;
+    
   }
   ol {
-    background: #ff9999;
+    background:darkred;
     padding: 20px;
     counter-reset: 1;
     list-style-type: upper-alpha;
+    margin-top: 20px;
   }
   ol li {
     
     background: #ffe5e5;
-    padding: 5px;
+    margin: 5px;
     text-align: center;
     counter-increment: 1;
+    font-size: 20;
   }  
   
- 
+ img {
+   margin-top: 20px;
+ }
   
   
